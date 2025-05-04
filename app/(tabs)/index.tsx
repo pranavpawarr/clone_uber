@@ -1,12 +1,12 @@
 import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, Text } from 'react-native'
+import { SafeAreaView } from 'react-native-safe-area-context'
 
 export default function HomeScreen() {
   return (
-    <View>
+    <SafeAreaView className=' flex-1 items-center justify-center'>
       <Text>HomeScreen</Text>
-      <View className="w-10 h-10 bg-blue-500" />
-    </View>
+    </SafeAreaView>
   )
 }
 
